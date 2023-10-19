@@ -16,12 +16,11 @@ Use
 - In terminal run `npm start`
 - You'll be prompted to enter a password for your chrome keychain. Enter it (it may ask twice)
 - In terminal enter the band you want to see
-- In terminal enter the date you want to see the band (in this format Mar 12/Apr 20/Nov 1)
+- In terminal enter the date you want to see the band
 - You can verify the offer was made in your account/tickets/offers page
 
 Issues
 
-- If you put the date in any format other than described above it will not work
 - If you are not already logged into CashorTrade on chrome it will not work; it relies on your cookies to ensure you are signed in
 - If you do not create a .env file with the correct CVC for the default card you have on file on CashorTrade it will not work
 
