@@ -27,8 +27,8 @@ Issues
 
 TODO:
 
-- Figure out how to take YYYY-MM-DD format and convert to Mon DD format.
-  - Date object and .toLocaleDateString() but need to compensate for timezone differences
 - add a way to monitor for new posts to automate process
   - Potential ideas -
     - Launch Agent that will run a bash script when a notification comes in from CoT about a new ticket. Bash script will simply run the node script when triggered.
+- Create GUI to make easier to use
+- Launch browser in headless mode (headless mode off for testing purposes)

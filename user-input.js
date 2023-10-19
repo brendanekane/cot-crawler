@@ -11,14 +11,18 @@ const userInput = {
   },
   getDate: () => {
     // wrap the prompt in formatDate when it is done. formatDate will return null if an invalid date is supplied
-    let date = prompt(
-      'What date is the show? Use abbreviated month format e.g. Mar 14: ',
-      ''
-    );
-    while (date == '' || date == null) {
-      date = prompt(
+    let date = formatter.formatDate(
+      prompt(
         'What date is the show? Use abbreviated month format e.g. Mar 14: ',
         ''
+      )
+    );
+    while (date == '' || date == null) {
+      date = formatter.formatDate(
+        prompt(
+          'What date is the show? Use abbreviated month format e.g. Mar 14: ',
+          ''
+        )
       );
     }
     return date;
@@ -29,14 +33,18 @@ const userInput = {
       band = prompt('What band do you want tickets for?: ', '');
     }
 
-    let date = prompt(
-      'What date is the show? Use abbreviated month format e.g. Mar 14: ',
-      ''
-    );
-    while (date == '' || date == null) {
-      date = prompt(
+    let date = formatter.formatDate(
+      prompt(
         'What date is the show? Use abbreviated month format e.g. Mar 14: ',
         ''
+      )
+    );
+    while (date == '' || date == null) {
+      date = formatter.formatDate(
+        prompt(
+          'INVALID DATE! What date is the show? Use abbreviated month format e.g. Mar 14: ',
+          ''
+        )
       );
     }
     return {
