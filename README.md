@@ -19,7 +19,7 @@ This tool is to help automate the process of buying tickets on CashorTrade. This
 - In terminal enter the date you want to see the band
 - You can verify the offer was made in your account/tickets/offers page
 
-## Issues
+## Troubleshooting
 
 - If you are not already logged into CashorTrade on chrome it will not work; it relies on your cookies to ensure you are signed in
 - If you do not create a .env file with the correct CVC for the default card you have on file on CashorTrade it will not work
